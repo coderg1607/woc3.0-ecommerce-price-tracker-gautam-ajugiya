@@ -1,0 +1,17 @@
+[0124/130518.513:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0124/130520.818:ERROR:exception_snapshot_win.cc(99)] thread ID 7012 not found in process
+[0124/130522.188:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0124/130522.188:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0124/130522.188:ERROR:exception_snapshot_win.cc(99)] thread ID 1928 not found in process
+[0126/102707.144:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0126/132956.359:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0126/145034.902:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0126/145035.941:ERROR:exception_snapshot_win.cc(99)] thread ID 6012 not found in process
+[0126/145038.756:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0126/145038.756:ERROR:exception_snapshot_win.cc(99)] thread ID 2156 not found in process
+[0126/161449.713:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0126/161450.425:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0126/161450.425:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0126/161450.425:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0126/161450.705:ERROR:exception_snapshot_win.cc(99)] thread ID 3440 not found in process
+[0126/203633.702:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
