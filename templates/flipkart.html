@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Flipkart</title>
+  </head>
+  <body>
+    <form action = "" method = "POST">
+        {% csrf_token %}
+        <div class="text-center">
+            <img src="data:image/png;base64,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" class="img-thumbnail" alt="...">
+                  <div>
+                    <hr>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address:</label>
+          <input type="email" name='flipkartid'class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email address">
+          
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputproductlink" class="form-label">Product link:</label>
+          <input type="text" name="flipkartproduct"class="form-control" id="exampleInputproductlink" placeholder="Enter flipkart product link">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputprice" class="form-label">Desire price:</label>
+            <input type="number" name="flipkartprice"class="form-control" id="exampleInputprice" placeholder="Enter your desire price">
+          </div>
+        
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

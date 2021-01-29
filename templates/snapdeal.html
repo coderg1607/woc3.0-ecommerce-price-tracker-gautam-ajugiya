@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>snapdeal</title>
+  </head>
+  <body>
+    <form action = "" method = "POST">
+        {% csrf_token %}
+        <div class="text-center">
+            <img src="data:image/jpeg;base64,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" class="img-thumbnail" alt="...">
+                  <div>
+                    <hr>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address:</label>
+          <input type="email" name="snapdealid" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email address">
+          
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputproductlink" class="form-label">Product link:</label>
+          <input type="text" name="snapdealproduct"class="form-control" id="exampleInputproductlink" placeholder="Enter snapdeal product link">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputprice" class="form-label">Desire price:</label>
+            <input type="text" name="snapdealprice" class="form-control" id="exampleInputprice" placeholder="Enter your desire price">
+          </div>
+        
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
